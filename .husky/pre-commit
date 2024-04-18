@@ -9,7 +9,7 @@ npm run check-format ||
 }
 
 # check eslint
-npm run check-eslint ||
+npm run check-lint ||
 {
     echo 'Eslint check failed, Make the required changes listen above. add changes and try commit agai '
     false
@@ -29,6 +29,6 @@ npm run build ||
     false
 }
 
-echo 'Success Commit
+echo 'Success Commit'
 
 
