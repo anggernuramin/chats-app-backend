@@ -1,5 +1,5 @@
 . "$(dirname "$0")/_/husky.sh"
-echo 'Styling. testing and building your project before commit"
+echo 'Styling. testing and building your project before commit'
 
 # check Prettier
 npm run check-format || 
@@ -30,3 +30,5 @@ npm run build ||
 }
 
 echo 'Success Commit
+
+
